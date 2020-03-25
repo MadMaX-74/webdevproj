@@ -1,0 +1,56 @@
+$roboto: 'Roboto', sans-serif;
+$accent-color: #00897b;
+$text-color: #212121;
+$bg-color: #e4fdf9;
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.button{
+    width:215px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: $roboto;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: $accent-color;
+    padding: 20px 40px;
+    border:2px solid $accent-color;
+    cursor: pointer;
+    &-o{
+        background-color: transparent;
+        border: 2px solid #fff;
+        &:focus{
+            outline: none;
+        }
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.block-title{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.block-subtitle{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    max-width: 624px;
+}

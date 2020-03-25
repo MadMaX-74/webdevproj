@@ -1,0 +1,24 @@
+@import "paths/main";
+
+
+
+@import "paths/header";
+@import "paths/about";
+@import "paths/services";
+@import "paths/works";
+@import "paths/pricing";
+@import "paths/team";
+@import "paths/blog";
+@import "paths/contact";
+
+
+footer{
+    background-color: #ffffff;
+    color: $text-color;
+    padding: 15px;
+    text-align: center;
+    .footer-text{
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+}

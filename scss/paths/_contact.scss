@@ -1,0 +1,94 @@
+.contact{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background: #000 url('/img/form-bg.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);          
+    }
+    &-wrap{
+        position: relative;                  
+        z-index: 99;
+    }
+    &-links{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        @media (max-width: 768px){
+            flex-direction: column;            
+        }
+    }
+    &-info{        
+        max-width: 250px;
+        text-align: center;
+        @media (max-width: 768px){
+            margin: 20px auto;
+        }
+        &__img{
+            width: 105px;
+            height: 105px;
+            margin: 0 auto 40px;
+        }
+        &__content{
+            a{
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media (max-width: 600px){
+            flex-direction: column;
+        }
+        input{
+            box-sizing: border-box;
+            padding: 20px 35px;
+            border:none;
+            border-radius: 5px;
+            @media (max-width: 600px){
+                margin-bottom: 30px;
+            }            
+        }
+        &--name{
+            flex-basis: 48%;
+        }
+        &--mail{
+            flex-basis: 48%;
+        }
+        &--massage{
+            margin-top: 30px;
+            margin-bottom: 30px;            
+            flex-basis: 100%;
+            padding: 20px 35px;
+            border:none;
+            border-radius: 5px;
+        }
+               
+        &--btn{
+            display: block;
+            background-color: #ffffff;
+            color: $text-color;
+            border:none;
+            border-radius: 5px;            
+        }
+    }
+    
+}
+.contact-form-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
