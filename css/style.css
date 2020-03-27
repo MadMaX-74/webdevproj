@@ -134,7 +134,7 @@ body {
 }
 
 header {
-  background: #000 url("../../img/header-bg.jpg") no-repeat center;
+  background: #000 url("../img/header-bg.jpg") no-repeat center;
   background-size: cover;
   padding-top: 130px;
   padding-bottom: 50px;
@@ -313,7 +313,7 @@ header .header-arrow {
                 border-color:#fff;
             }
             .sevices-block__img{
-                background: url('../../img/smartphone-white.png') no-repeat center;
+                background: url('img/smartphone-white.png') no-repeat center;
             }
         }*/
 }
@@ -345,7 +345,7 @@ header .header-arrow {
   width: 56px;
   height: 62px;
   margin: 0 auto;
-  background: url("../../img/smartphone.png") no-repeat center;
+  background: url("../img/smartphone.png") no-repeat center;
 }
 
 .active {
@@ -359,7 +359,7 @@ header .header-arrow {
 }
 
 .active .sevices-block__img {
-  background: url("../../img/smartphone-white.png") no-repeat center;
+  background: url("../img/smartphone-white.png") no-repeat center;
 }
 
 .works {
@@ -554,7 +554,7 @@ header .header-arrow {
   color: #ffffff;
   width: 370px;
   height: 209px;
-  background: url("/img/svg/Rectangle.svg") no-repeat top;
+  background: url("../img/svg/Rectangle.svg") no-repeat top;
 }
 
 @media (max-width: 400px) {
@@ -877,7 +877,7 @@ header .header-arrow {
 .contact {
   padding-top: 130px;
   padding-bottom: 130px;
-  background: #000 url("/img/form-bg.jpg") no-repeat center;
+  background: #000 url("../img/form-bg.jpg") no-repeat center;
   background-size: cover;
   position: relative;
   color: #ffffff;
