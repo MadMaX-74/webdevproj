@@ -1,2 +1,3 @@
-# webdevproj
-homework fork TP
+# webdevpage
+
+Сайт для тренировки. Поностью сделанная верстка и JS + адаптив
